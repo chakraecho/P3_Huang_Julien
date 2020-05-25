@@ -1,0 +1,19 @@
+{
+  "name": "p03_css_huang_julien",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./style.scss:./style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/julien-huang-dev/P3_Huang_Julien.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/julien-huang-dev/P3_Huang_Julien/issues"
+  },
+  "homepage": "https://github.com/julien-huang-dev/P3_Huang_Julien#readme"
+}
