@@ -1,0 +1,32 @@
+
+
+
+
+header {
+    background-color: $main-background;
+    width: 100%;
+    height: 15vh;
+
+    h1 {
+        color: $main-text;
+        text-align:center;
+    }
+}
+
+footer{
+   background-color:$main-background;
+   display:flex;
+   flex-direction:row;
+   justify-content:space-between;
+   position: fixed;
+   bottom:0px; left:0px;
+   width:100%;
+   height:7vh;
+
+}
+.menu{
+    &_box{
+        width:40%;
+        margin:5%;
+    }
+}
