@@ -18,6 +18,9 @@ header h1 {
   color: #fdcb46;
   text-align: center;
   line-height: 10vh;
+  font-family: "arial black";
+  font-size: 3em;
+  font-weight: bolder;
 }
 
 footer {
@@ -35,16 +38,8 @@ footer div {
   line-height: 7vh;
   margin: 0 10px;
   color: #fdcb46;
-}
-
-.menu_box {
-  width: 40%;
-  height: 50%;
-  margin: 5%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  font-family: "Arial";
+  font-weight: bolder;
 }
 
 section {
@@ -53,6 +48,23 @@ section {
   flex-wrap: wrap;
   justify-content: space-between;
   min-height: 100vh;
+}
+
+.menu_box {
+  width: 500px;
+  height: 700px;
+  margin: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 5px 5px grey;
+}
+.menu_name {
+  font-size: 2em;
+}
+.menu_title {
+  font-size: 3em;
 }
 
 #menu_1 {
@@ -66,6 +78,17 @@ section {
 }
 #menu_4 {
   background-color: #fdfffd;
+}
+
+.next_box {
+  margin: auto;
+  text-align: center;
+  background-color: #579c87;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  font-size: 3em;
+  color: #fdcb46;
+  padding: 5px 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
