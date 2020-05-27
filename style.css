@@ -30,6 +30,12 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: "kaushanscript";
+  src: url("fontkit/kaushanscript.otf");
+  font-weight: normal;
+  font-style: normal;
+}
 * {
   margin: 0;
   padding: 0;
@@ -115,12 +121,26 @@ footer a {
 }
 #menu_3_title {
   font-family: "Comic_relief";
-  text-transform: uppercase;
   font-style: italic;
   color: #0887fb;
 }
 #menu_4 {
   background-color: #fdfffd;
+}
+#menu_4_name {
+  font-family: kaushanscript;
+  font-weight: bold;
+  background: linear-gradient(45deg, #3e923a, #beff7f 75%);
+  background-clip: text;
+  color: transparent;
+}
+#menu_4_title {
+  font-family: "Comic_relief";
+  font-style: italic;
+  background: linear-gradient(45deg, #72bf56, #72bf56);
+  background-clip: text;
+  color: transparent;
+  padding: 3px;
 }
 
 section {
