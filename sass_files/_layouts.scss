@@ -8,19 +8,21 @@ section{
 
 .menu {
     &_box {
-        width: 500px;
-        height: 700px;
+        width: 30%;
+        height: 50vw;
         margin: 10%;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        box-shadow: 0px 0px 5px 5px grey;
+        box-shadow: 0px 0px 5px 5px #BDBDBD;
     }
-    &_name{
-        font-size:2em;
+
+    &_name {
+        font-size: 2em;
     }
-    &_title{
+
+    &_title {
         font-size: 3em;
     }
 }
@@ -50,6 +52,7 @@ section{
     border-radius:5px;
     font-size:3em;
     color:$main-text;
-    padding:5px 10px;
+    padding:1% 10%;
+    font-family:Arial;
 
 }
