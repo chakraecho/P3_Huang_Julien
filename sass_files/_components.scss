@@ -28,12 +28,13 @@ footer{
    width:100%;
    height:7vh;
 
-   div{
+   a{
        line-height:7vh;
        margin:0 10px;
        color:$main-text;
        font-family:'Arial';
        font-weight:bolder;
+       text-decoration:none;
 
    }
 }

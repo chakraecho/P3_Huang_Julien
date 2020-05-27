@@ -1,3 +1,17 @@
+@font-face {
+  font-family: "black_jackregular";
+  src: url("blackjack-webfont.eot");
+  src: url("fontkit/blackjack-webfont.eot?#iefix") format("embedded-opentype"), url("fontkit/blackjack-webfont.woff2") format("woff2"), url("fontkit/blackjack-webfont.woff") format("woff"), url("fontkit/blackjack-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "comic_relief";
+  src: url("fontkit/ComicRelief-webfont.eot");
+  src: url("fontkit/ComicRelief-webfont.eot?#iefix") format("embedded-opentype"), url("fontkit/ComicRelief-webfont.woff2") format("woff2"), url("fontkit/ComicRelief-webfont.woff") format("woff"), url("fontkit/ComicRelief-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
 * {
   margin: 0;
   padding: 0;
@@ -34,26 +48,27 @@ footer {
   width: 100%;
   height: 7vh;
 }
-footer div {
+footer a {
   line-height: 7vh;
   margin: 0 10px;
   color: #fdcb46;
   font-family: "Arial";
   font-weight: bolder;
+  text-decoration: none;
 }
 
 section {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   min-height: 100vh;
 }
 
 .menu_box {
-  width: 30%;
-  height: 50vw;
-  margin: 10%;
+  width: 25%;
+  height: 40vw;
+  margin: 5%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -61,14 +76,31 @@ section {
   box-shadow: 0px 0px 5px 5px #BDBDBD;
 }
 .menu_name {
-  font-size: 2em;
+  font-size: 1.5em;
 }
 .menu_title {
-  font-size: 3em;
+  font-size: 2em;
+}
+.menu_img {
+  width: 100%;
+}
+.menu_img_box {
+  width: 15%;
 }
 
 #menu_1 {
   background-color: #fcdfdb;
+}
+#menu_1_name {
+  font-family: "black_jackregular";
+  font-weight: bold;
+  color: #3c1218;
+}
+#menu_1_title {
+  font-family: "Comic_relief";
+  text-transform: uppercase;
+  font-style: italic;
+  color: #3c1218;
 }
 #menu_2 {
   background-color: #fff5fe;

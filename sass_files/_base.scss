@@ -1,3 +1,20 @@
+@font-face {
+    font-family: 'black_jackregular';
+    src: url('blackjack-webfont.eot');
+    src: url('fontkit/blackjack-webfont.eot?#iefix') format('embedded-opentype'), url('fontkit/blackjack-webfont.woff2') format('woff2'), url('fontkit/blackjack-webfont.woff') format('woff'), url('fontkit/blackjack-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'comic_relief';
+    src: url('fontkit/ComicRelief-webfont.eot');
+    src: url('fontkit/ComicRelief-webfont.eot?#iefix') format('embedded-opentype'), url('fontkit/ComicRelief-webfont.woff2') format('woff2'), url('fontkit/ComicRelief-webfont.woff') format('woff'), url('fontkit/ComicRelief-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
 * {
     margin: 0;
     padding: 0;
