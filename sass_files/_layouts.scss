@@ -34,49 +34,7 @@ section{
         }
     }
 }
-#menu {
-    &_1 {
-        background-color: #fcdfdb;
 
-        &_name {
-            font-family: "black_jackregular";
-            font-weight: bold;
-            color: #3c1218;
-        }
-
-        &_title {
-            font-family: 'Comic_relief';
-            text-transform: uppercase;
-            font-style: italic;
-            color: #3c1218;
-        }
-    }
-
-    &_2 {
-        background-color: #fff5fe;
-
-        &_name {
-            font-family: alegrya;
-            font-weight: bold;
-            background: linear-gradient(90deg, #d8852e,#905bfd);
-            background-clip: text;
-            color: transparent;
-        }
-
-        &_title {
-            font-family: librebaskerville;
-            color: #d8852e;
-        }
-    }
-
-    &_3 {
-        background-color: #fff5fe;
-    }
-
-    &_4 {
-        background-color: #fdfffd;
-    }
-}
 
 .next_box{
     margin:auto;
