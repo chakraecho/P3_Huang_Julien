@@ -54,6 +54,19 @@ section{
 
     &_2 {
         background-color: #fff5fe;
+
+        &_name {
+            font-family: alegrya;
+            font-weight: bold;
+            background: linear-gradient(90deg, #d8852e,#905bfd);
+            background-clip: text;
+            color: transparent;
+        }
+
+        &_title {
+            font-family: librebaskerville;
+            color: #d8852e;
+        }
     }
 
     &_3 {

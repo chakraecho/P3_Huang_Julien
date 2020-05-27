@@ -12,6 +12,18 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: "alegrya";
+  src: url("fontkit/alegreya-regular.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "librebaskerville";
+  src: url("fontkit/librebaskerville.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
 * {
   margin: 0;
   padding: 0;
@@ -104,6 +116,17 @@ section {
 }
 #menu_2 {
   background-color: #fff5fe;
+}
+#menu_2_name {
+  font-family: alegrya;
+  font-weight: bold;
+  background: linear-gradient(90deg, #d8852e, #905bfd);
+  background-clip: text;
+  color: transparent;
+}
+#menu_2_title {
+  font-family: librebaskerville;
+  color: #d8852e;
 }
 #menu_3 {
   background-color: #fff5fe;
