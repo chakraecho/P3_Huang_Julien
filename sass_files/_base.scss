@@ -45,10 +45,19 @@ h2{
     font-size:2.3rem;
 }
 h3{
-    font-size:2.5rem
+    font-size:2.5rem;
+    text-align:center;
 }
 .row{
     width:100%;
     display:flex;
     flex-direction:row;
+}
+
+.rnd-circle{
+    display:inline-block;
+    height:0.1em;
+    width:0.1em;
+    border-radius:50%;
+    background-color:$main-text;
 }
