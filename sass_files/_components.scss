@@ -33,7 +33,7 @@ footer{
        font-weight:bolder;
        text-decoration:none;
        &:hover{
-           animation:shake 1s infinite alternate;
+           animation:shake 100ms infinite alternate;
        }
 
    }
