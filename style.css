@@ -47,6 +47,7 @@ h2 {
 
 h3 {
   font-size: 2.5rem;
+  text-align: center;
 }
 
 .row {
@@ -160,6 +161,19 @@ section {
   min-height: 100vh;
 }
 
+.menu_inside {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transform: scale(1);
+  opacity: 1;
+}
+.menu_inside:hover {
+  transform: scale(1.2);
+  opacity: 0.5;
+  transition: all ease-in-out 0.5s;
+}
 .menu_box {
   width: 25%;
   height: 40vw;
