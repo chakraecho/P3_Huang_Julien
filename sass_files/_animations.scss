@@ -1,0 +1,16 @@
+/*  keyframe Animation for the main menu*/
+//round circle
+@keyframes circle_jump{
+    from {
+        transform:translateY(0em);
+    }
+    to{
+        transform:translateY(-0.5em);
+    }
+}
+@for $i from 1 through 3{
+    .dot_#{$i}{
+        animation: circle_jump 0.5s infinite alternate;
+        animation-delay:$i * 0.1s;
+    }
+}

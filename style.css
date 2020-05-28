@@ -56,6 +56,14 @@ h3 {
   flex-direction: row;
 }
 
+.rnd-circle {
+  display: inline-block;
+  height: 0.1em;
+  width: 0.1em;
+  border-radius: 50%;
+  background-color: #fdcb46;
+}
+
 header {
   background-color: #579c87;
   width: 100%;
@@ -203,10 +211,34 @@ section {
   background-color: #579c87;
   margin-bottom: 20px;
   border-radius: 5px;
-  font-size: 3em;
+  font-size: 2em;
   color: #fdcb46;
   padding: 1% 10%;
   font-family: Arial;
+}
+
+/*  keyframe Animation for the main menu*/
+@keyframes circle_jump {
+  from {
+    transform: translateY(0em);
+  }
+  to {
+    transform: translateY(-0.5em);
+  }
+}
+.dot_1 {
+  animation: circle_jump 0.5s infinite alternate;
+  animation-delay: 0.1s;
+}
+
+.dot_2 {
+  animation: circle_jump 0.5s infinite alternate;
+  animation-delay: 0.2s;
+}
+
+.dot_3 {
+  animation: circle_jump 0.5s infinite alternate;
+  animation-delay: 0.3s;
 }
 
 /*# sourceMappingURL=style.css.map */
