@@ -87,7 +87,7 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  position: sticky;
+  position: fixed;
   bottom: 0px;
   left: 0px;
   width: 100%;
@@ -168,17 +168,6 @@ footer a:hover {
   padding: 3px;
 }
 
-.submenu_body {
-  height: 100vh;
-}
-.submenu_card {
-  width: 70%;
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 section {
   display: flex;
   flex-direction: row;
@@ -233,6 +222,15 @@ section {
   color: #fdcb46;
   padding: 1% 10%;
   font-family: Arial;
+}
+
+.submenu_card {
+  height: 100%;
+  width: 70%;
+  margin: auto;
+}
+.submenu_img_box {
+  width: 3em;
 }
 
 #submenu_card_1 {
