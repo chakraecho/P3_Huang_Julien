@@ -63,3 +63,13 @@ section{
     font-family:Arial;
 
 }
+
+
+//sub menu1 layout
+#submenu {
+    &_card {
+        &_1 {
+            background-color:$submenu1bg;
+        }
+    }
+}
