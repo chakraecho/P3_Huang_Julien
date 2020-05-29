@@ -51,10 +51,10 @@ footer{
         }
 
         &_title {
-            font-family: 'Comic_relief';
+            @include note_enchantee;
             text-transform: uppercase;
             font-style: italic;
-            color: #3c1218;
+
         }
     }
 

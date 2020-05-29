@@ -114,10 +114,10 @@ footer a:hover {
   color: #3c1218;
 }
 #menu_1_title {
+  color: #3c1218;
   font-family: "Comic_relief";
   text-transform: uppercase;
   font-style: italic;
-  color: #3c1218;
 }
 #menu_2 {
   background-color: #fff5fe;
@@ -168,7 +168,7 @@ footer a:hover {
   padding: 3px;
 }
 
-section {
+.main_section {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -183,6 +183,7 @@ section {
   align-items: center;
   transform: scale(1);
   opacity: 1;
+  transition: all ease-in-out 0.5s;
 }
 .menu_inside:hover {
   transform: scale(1.2);
@@ -224,10 +225,43 @@ section {
   font-family: Arial;
 }
 
+.submenu_section {
+  width: 80%;
+  margin: auto;
+}
 .submenu_card {
   height: 100%;
   width: 70%;
   margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.submenu_card .row {
+  justify-content: space-between;
+}
+.submenu_card .row .submenu_trait {
+  width: 30%;
+}
+.submenu_card .row h4 {
+  color: #3c1218;
+  font-family: "Comic_relief";
+  font-size: 2em;
+  position: relative;
+}
+.submenu_card .row h4:hover > span {
+  transform: scaleX(1);
+  transition: all 1s;
+}
+.submenu_card .row h4 span {
+  background-color: #3c1218;
+  transform-origin: left;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+  height: 5px;
+  transform: scaleX(0);
 }
 .submenu_img_box {
   width: 3em;
