@@ -20,7 +20,7 @@ footer{
    display:flex;
    flex-direction:row;
    justify-content:space-between;
-   position: sticky;
+   position: fixed;
    bottom:0px; left:0px;
    width:100%;
    height:7vh;
@@ -59,7 +59,7 @@ footer{
     }
 
     &_2 {
-        background-color: $submenu2_3bg;;
+        background-color: $submenu2_3bg;
 
         &_name {
             font-family: alegrya;
@@ -113,18 +113,5 @@ footer{
             color: transparent;
             padding: 3px;
         }
-    }
-}
-
-.submenu{
-    &_body{
-        height:100vh;
-    }
-    &_card{
-        width:70%;
-        margin:auto;
-        display:flex;
-        flex-direction:column;
-        align-items:center;
     }
 }
