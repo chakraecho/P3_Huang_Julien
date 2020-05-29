@@ -66,6 +66,19 @@ section{
 
 
 //sub menu1 layout
+.submenu {
+    &_card {
+        height: 100%;
+        width: 70%;
+        margin: auto;
+    }
+
+    &_img {
+        &_box {
+            width: 3em;
+        }
+    }
+}
 #submenu {
     &_card {
         &_1 {
