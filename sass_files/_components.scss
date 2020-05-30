@@ -20,7 +20,7 @@ footer{
    display:flex;
    flex-direction:row;
    justify-content:space-between;
-   position: fixed;
+   position: sticky;
    bottom:0px; left:0px;
    width:100%;
    height:7vh;
@@ -112,6 +112,57 @@ footer{
             background-clip: text;
             color: transparent;
             padding: 3px;
+        }
+    }
+}
+.submenu {
+    &_section {
+        width: 80%;
+        margin: auto;
+        margin-bottom: 30px;
+        padding: 20px;
+    }
+
+    &_card {
+        height: 100%;
+        width: 70%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .row {
+            justify-content: space-between;
+
+            .submenu_trait {
+                width: 30%;
+            }
+
+            h4 {
+                @include note_enchantee;
+                font-size: 2em;
+                position: relative;
+
+
+
+                @include underline_animated;
+            }
+        }
+    }
+
+    &_img {
+        &_box {
+            width: 3em;
+        }
+    }
+
+    &_footer {
+        display: flex;
+        flex-direction: row;
+
+        h2 {
+            @include note_enchantee;
+            font-size: 2em;
         }
     }
 }

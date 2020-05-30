@@ -87,7 +87,7 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  position: fixed;
+  position: sticky;
   bottom: 0px;
   left: 0px;
   width: 100%;
@@ -168,6 +168,60 @@ footer a:hover {
   padding: 3px;
 }
 
+.submenu_section {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 30px;
+  padding: 20px;
+}
+.submenu_card {
+  height: 100%;
+  width: 70%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.submenu_card .row {
+  justify-content: space-between;
+}
+.submenu_card .row .submenu_trait {
+  width: 30%;
+}
+.submenu_card .row h4 {
+  color: #3c1218;
+  font-family: "Comic_relief";
+  font-size: 2em;
+  position: relative;
+}
+.submenu_card .row h4:hover > span {
+  transform: scaleX(1);
+  transition: all 1s;
+}
+.submenu_card .row h4 span {
+  background-color: #3c1218;
+  transform-origin: left;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+  height: 4px;
+  transform: scaleX(0);
+  border-radius: 2px;
+}
+.submenu_img_box {
+  width: 3em;
+}
+.submenu_footer {
+  display: flex;
+  flex-direction: row;
+}
+.submenu_footer h2 {
+  color: #3c1218;
+  font-family: "Comic_relief";
+  font-size: 2em;
+}
+
 .main_section {
   display: flex;
   flex-direction: row;
@@ -207,10 +261,7 @@ footer a:hover {
   font-size: 2em;
 }
 .menu_img {
-  width: 100%;
-}
-.menu_img_box {
-  width: 15%;
+  width: 5em;
 }
 
 .next_box {
@@ -223,48 +274,6 @@ footer a:hover {
   color: #fdcb46;
   padding: 1% 10%;
   font-family: Arial;
-}
-
-.submenu_section {
-  width: 80%;
-  margin: auto;
-}
-.submenu_card {
-  height: 100%;
-  width: 70%;
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.submenu_card .row {
-  justify-content: space-between;
-}
-.submenu_card .row .submenu_trait {
-  width: 30%;
-}
-.submenu_card .row h4 {
-  color: #3c1218;
-  font-family: "Comic_relief";
-  font-size: 2em;
-  position: relative;
-}
-.submenu_card .row h4:hover > span {
-  transform: scaleX(1);
-  transition: all 1s;
-}
-.submenu_card .row h4 span {
-  background-color: #3c1218;
-  transform-origin: left;
-  position: absolute;
-  left: 0px;
-  bottom: 0px;
-  width: 100%;
-  height: 5px;
-  transform: scaleX(0);
-}
-.submenu_img_box {
-  width: 3em;
 }
 
 #submenu_card_1 {

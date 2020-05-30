@@ -43,11 +43,7 @@
     }
 
     &_img {
-        width: 100%;
-
-        &_box {
-            width: 15%;
-        }
+        width: 5em;
     }
 }
 
@@ -67,44 +63,7 @@
 
 
 //sub menu1 layout
-.submenu {
-    &_section{
-        width:80%;
-        margin:auto;
-    }
-    &_card {
-        height: 100%;
-        width: 70%;
-        margin: auto;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
 
-        .row {
-            justify-content: space-between;
-
-            .submenu_trait {
-                width: 30%;
-            }
-
-            h4 {
-                @include note_enchantee;
-                font-size: 2em;
-                position: relative;
-
-
-
-                @include underline_animated;
-            }
-        }
-    }
-
-    &_img {
-        &_box {
-            width: 3em;
-        }
-    }
-}
 #submenu {
     &_card {
         &_1 {
