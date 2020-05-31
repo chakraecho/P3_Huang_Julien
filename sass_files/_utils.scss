@@ -1,2 +1,31 @@
 $main-background: #579c87;
 $main-text: #fdcb46;
+
+@mixin note_enchantee {
+    color: #3c1218;
+    font-family: 'Comic_relief';
+}
+$submenu1color: #3c1218 ;
+$submenu1bg: #fcdfdb;
+$submenu2_3bg: #fff5fe;
+$submenu4bg: #fdfffd;
+
+//underline animated
+@mixin underline_animated {
+    &:hover > span {
+        transform: scaleX(1);
+        transition: all 1s;
+    }
+
+    span {
+        background-color: $submenu1color;
+        transform-origin: left;
+        position: absolute;
+        left: 0px;
+        bottom: 0px;
+        width: 100%;
+        height: 4px;
+        transform: scaleX(0);
+        border-radius:2px;
+    }
+}
