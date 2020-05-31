@@ -52,11 +52,16 @@ footer{
     &_1 {
         background-color: $submenu1bg;
 
+        &_name {
+            font-family: "black_jackregular";
+            font-weight: bold;
+            color: #3c1218;
+        }
+
         &_title {
             @include note_enchantee;
             text-transform: uppercase;
             font-style: italic;
-
         }
     }
 

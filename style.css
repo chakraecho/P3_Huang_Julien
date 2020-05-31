@@ -121,6 +121,11 @@ footer a:hover {
 #menu_1 {
   background-color: #fcdfdb;
 }
+#menu_1_name {
+  font-family: "black_jackregular";
+  font-weight: bold;
+  color: #3c1218;
+}
 #menu_1_title {
   color: #3c1218;
   font-family: "Comic_relief";
