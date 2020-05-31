@@ -72,6 +72,15 @@
     }
 }
 .submenu{
+    &_section{
+        &_2{
+            .row_main{
+                h4{
+                    font-size:2em;
+                }
+            }
+        }
+    }
     &_content{
         &_1{
             font-family:"Comic_relief";

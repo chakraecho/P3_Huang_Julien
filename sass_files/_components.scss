@@ -131,8 +131,16 @@ footer{
         align-items: center;
         padding: 20px;
 
+        .row_main {
+            width: 100%;
+            justify-content: space-between;
+            display:flex;
+        }
+
         .row {
             justify-content: space-between;
+            width: 80%;
+            margin: auto;
 
             .submenu_trait {
                 width: 30%;
@@ -151,6 +159,9 @@ footer{
         &_box {
             width: 3em;
         }
+    }
+    &_trait{
+        width:30%;
     }
 
     &_footer {

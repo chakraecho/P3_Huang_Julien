@@ -192,8 +192,15 @@ footer a:hover {
   align-items: center;
   padding: 20px;
 }
+.submenu_card .row_main {
+  width: 100%;
+  justify-content: space-between;
+  display: flex;
+}
 .submenu_card .row {
   justify-content: space-between;
+  width: 80%;
+  margin: auto;
 }
 .submenu_card .row .submenu_trait {
   width: 30%;
@@ -221,6 +228,9 @@ footer a:hover {
 }
 .submenu_img_box {
   width: 3em;
+}
+.submenu_trait {
+  width: 30%;
 }
 .submenu_footer {
   display: flex;
@@ -285,6 +295,9 @@ footer a:hover {
   background-color: #fcdfdb;
 }
 
+.submenu_section_2 .row_main h4 {
+  font-size: 2em;
+}
 .submenu_content_1 {
   font-family: "Comic_relief";
 }
