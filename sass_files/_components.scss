@@ -38,17 +38,19 @@ footer{
 
    }
 }
-
-
-#menu {
+.menu {
     &_1 {
-        background-color: $submenu1bg;
-
         &_name {
             font-family: "black_jackregular";
             font-weight: bold;
             color: #3c1218;
         }
+    }
+}
+
+#menu {
+    &_1 {
+        background-color: $submenu1bg;
 
         &_title {
             @include note_enchantee;
@@ -141,7 +143,7 @@ footer{
 
             h4 {
                 @include note_enchantee;
-                font-size: 2.5em;
+                font-size: 2em;
                 position: relative;
 
 
@@ -160,10 +162,5 @@ footer{
     &_footer {
         display: flex;
         flex-direction: row;
-
-        h2 {
-            @include note_enchantee;
-            font-size: 2em;
-        }
     }
 }

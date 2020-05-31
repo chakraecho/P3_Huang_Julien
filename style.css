@@ -112,13 +112,14 @@ footer a:hover {
   animation: shake 100ms infinite alternate;
 }
 
-#menu_1 {
-  background-color: #fcdfdb;
-}
-#menu_1_name {
+.menu_1_name {
   font-family: "black_jackregular";
   font-weight: bold;
   color: #3c1218;
+}
+
+#menu_1 {
+  background-color: #fcdfdb;
 }
 #menu_1_title {
   color: #3c1218;
@@ -199,7 +200,7 @@ footer a:hover {
 .submenu_card .row h4 {
   color: #3c1218;
   font-family: "Comic_relief";
-  font-size: 2.5em;
+  font-size: 2em;
   position: relative;
 }
 .submenu_card .row h4:hover > span {
@@ -223,11 +224,6 @@ footer a:hover {
 .submenu_footer {
   display: flex;
   flex-direction: row;
-}
-.submenu_footer h2 {
-  color: #3c1218;
-  font-family: "Comic_relief";
-  font-size: 2em;
 }
 
 .main_section {
