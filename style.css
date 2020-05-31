@@ -177,7 +177,7 @@ footer a:hover {
 }
 
 .submenu_section {
-  width: 80%;
+  width: 100%;
   margin: auto;
   margin-bottom: 30px;
   padding: 20px;
@@ -287,6 +287,10 @@ footer a:hover {
 
 .submenu_content_1 {
   font-family: "Comic_relief";
+}
+
+#submenu_card_2 row_main {
+  width: 100%;
 }
 
 .submenu_2_name {

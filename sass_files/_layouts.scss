@@ -80,7 +80,15 @@
 }
 
 //submenu_2 layout
-
+#submenu{
+    &_card{
+        &_2{
+            row_main{
+                width:100%;
+            }
+        }
+    }
+}
 .submenu_2_name{
     line-height:200px;
     font-size:3em;

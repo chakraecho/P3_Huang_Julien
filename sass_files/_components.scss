@@ -115,7 +115,7 @@ footer{
 }
 .submenu {
     &_section {
-        width: 80%;
+        width: 100%;
         margin: auto;
         margin-bottom: 30px;
         padding: 20px;
@@ -142,9 +142,6 @@ footer{
                 @include note_enchantee;
                 font-size: 2em;
                 position: relative;
-
-
-
                 @include underline_animated;
             }
         }
