@@ -113,6 +113,11 @@ footer{
         }
     }
 }
+.subtitle {
+    position: relative;
+    @include underline_animated;
+}
+
 .submenu {
     &_section {
         width: 100%;
