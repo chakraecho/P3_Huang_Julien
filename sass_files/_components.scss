@@ -52,16 +52,11 @@ footer{
     &_1 {
         background-color: $submenu1bg;
 
-        &_name {
-            font-family: "black_jackregular";
-            font-weight: bold;
-            color: #3c1218;
-        }
-
         &_title {
             @include note_enchantee;
             text-transform: uppercase;
             font-style: italic;
+
         }
     }
 
@@ -69,11 +64,7 @@ footer{
         background-color: $submenu2_3bg;
 
         &_name {
-            font-family: alegrya;
-            font-weight: bold;
-            background: linear-gradient(90deg, #d8852e,#905bfd);
-            background-clip: text;
-            color: transparent;
+            @include chicfrancaise;
         }
 
         &_title {
@@ -122,12 +113,17 @@ footer{
         }
     }
 }
+.subtitle {
+    position: relative;
+    @include underline_animated;
+}
+
 .submenu {
     &_section {
-        width: 80%;
+        width: 100%;
         margin: auto;
         margin-bottom: 30px;
-        padding: 20px;
+        
     }
 
     &_card {
@@ -140,8 +136,16 @@ footer{
         align-items: center;
         padding: 20px;
 
+        .row_main {
+            width: 100%;
+            justify-content: space-between;
+            display:flex;
+        }
+
         .row {
             justify-content: space-between;
+            width: 80%;
+            margin: auto;
 
             .submenu_trait {
                 width: 30%;
@@ -151,9 +155,6 @@ footer{
                 @include note_enchantee;
                 font-size: 2em;
                 position: relative;
-
-
-
                 @include underline_animated;
             }
         }
@@ -162,6 +163,12 @@ footer{
     &_img {
         &_box {
             width: 3em;
+        }
+    }
+    &_trait{
+        width:30%;
+        &_reverse{
+            transform:rotateY(180deg)
         }
     }
 

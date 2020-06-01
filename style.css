@@ -121,11 +121,6 @@ footer a:hover {
 #menu_1 {
   background-color: #fcdfdb;
 }
-#menu_1_name {
-  font-family: "black_jackregular";
-  font-weight: bold;
-  color: #3c1218;
-}
 #menu_1_title {
   color: #3c1218;
   font-family: "Comic_relief";
@@ -181,11 +176,29 @@ footer a:hover {
   padding: 3px;
 }
 
+.subtitle {
+  position: relative;
+}
+.subtitle:hover > span {
+  transform: scaleX(1);
+  transition: all 1s;
+}
+.subtitle span {
+  background-color: #3c1218;
+  transform-origin: left;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+  height: 4px;
+  transform: scaleX(0);
+  border-radius: 2px;
+}
+
 .submenu_section {
-  width: 80%;
+  width: 100%;
   margin: auto;
   margin-bottom: 30px;
-  padding: 20px;
 }
 .submenu_card {
   box-shadow: 0px 0px 5px 5px #BDBDBD;
@@ -197,8 +210,15 @@ footer a:hover {
   align-items: center;
   padding: 20px;
 }
+.submenu_card .row_main {
+  width: 100%;
+  justify-content: space-between;
+  display: flex;
+}
 .submenu_card .row {
   justify-content: space-between;
+  width: 80%;
+  margin: auto;
 }
 .submenu_card .row .submenu_trait {
   width: 30%;
@@ -226,6 +246,12 @@ footer a:hover {
 }
 .submenu_img_box {
   width: 3em;
+}
+.submenu_trait {
+  width: 30%;
+}
+.submenu_trait_reverse {
+  transform: rotateY(180deg);
 }
 .submenu_footer {
   display: flex;
@@ -290,8 +316,51 @@ footer a:hover {
   background-color: #fcdfdb;
 }
 
-.submenu_content_1 {
-  font-family: "Comic_relief";
+.submenu_section_2 .row_main h4 {
+  font-size: 2em;
+}
+.submenu_content_2_orange {
+  font-family: alegrya;
+  font-size: 1.3em;
+  color: #c67412;
+}
+.submenu_content_2_purple {
+  font-family: alegrya;
+  font-size: 1.3em;
+  color: #a56799;
+}
+.submenu_content_2_blue {
+  font-family: alegrya;
+  font-size: 1.3em;
+  color: #6e4ccc;
+}
+
+#submenu_card_2 row_main {
+  width: 100%;
+}
+
+.submenu_2_name {
+  line-height: 200px;
+  font-size: 3em;
+  vertical-align: center;
+  font-family: alegrya;
+  font-weight: bold;
+  background: linear-gradient(90deg, #d8852e, #905bfd);
+  background-clip: text;
+  color: transparent;
+}
+
+#subtitle_1 {
+  font-family: alegrya;
+  color: #c67412;
+}
+#subtitle_2 {
+  font-family: alegrya;
+  color: #a56799;
+}
+#subtitle_3 {
+  font-family: alegrya;
+  color: #6e4ccc;
 }
 
 /*  keyframe Animation for the main menu*/

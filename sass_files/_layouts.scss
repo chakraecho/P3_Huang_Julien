@@ -71,10 +71,70 @@
         }
     }
 }
-.submenu{
-    &_content{
-        &_1{
-            font-family:"Comic_relief";
+.submenu {
+    &_section {
+        &_2 {
+            .row_main {
+                h4 {
+                    font-size: 2em;
+                }
+            }
         }
+    }
+
+    &_content {
+        &_2 {
+            &_orange {
+                font-family: alegrya;
+                font-size: 1.3em;
+                color: $submenu_2_orange;
+            }
+
+            &_purple {
+                font-family: alegrya;
+                font-size: 1.3em;
+                color: $submenu_2_purple;
+            }
+
+            &_blue {
+                font-family: alegrya;
+                font-size: 1.3em;
+                color: $submenu_2_blue;
+            }
+        }
+    }
+}
+
+//submenu_2 layout
+#submenu{
+    &_card{
+        &_2{
+            row_main{
+                width:100%;
+            }
+        }
+    }
+}
+.submenu_2_name{
+    line-height:200px;
+    font-size:3em;
+    vertical-align:center;
+    @include chicfrancaise;
+   
+}
+#subtitle {
+    &_1 {
+        font-family: alegrya;
+        color: $submenu_2_orange;
+    }
+
+    &_2 {
+        font-family: alegrya;
+        color: $submenu_2_purple;
+    }
+
+    &_3 {
+        font-family: alegrya;
+        color: $submenu_2_blue;
     }
 }

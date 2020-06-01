@@ -10,6 +10,21 @@ $submenu1bg: #fcdfdb;
 $submenu2_3bg: #fff5fe;
 $submenu4bg: #fdfffd;
 
+$submenu_2_orange: #c67412 ;
+$submenu_2_purple: #a56799 ;
+$submenu_2_blue: #6e4ccc ;
+
+
+@mixin chicfrancaise {
+    font-family: alegrya;
+    font-weight: bold;
+    background: linear-gradient(90deg, #d8852e,#905bfd);
+    background-clip: text;
+    color: transparent;
+}
+
+
+
 //underline animated
 @mixin underline_animated {
     &:hover > span {
