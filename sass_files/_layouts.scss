@@ -71,19 +71,36 @@
         }
     }
 }
-.submenu{
-    &_section{
-        &_2{
-            .row_main{
-                h4{
-                    font-size:2em;
+.submenu {
+    &_section {
+        &_2 {
+            .row_main {
+                h4 {
+                    font-size: 2em;
                 }
             }
         }
     }
-    &_content{
-        &_1{
-            font-family:"Comic_relief";
+
+    &_content {
+        &_2 {
+            &_orange {
+                font-family: alegrya;
+                font-size: 1.3em;
+                color: $submenu_2_orange;
+            }
+
+            &_purple {
+                font-family: alegrya;
+                font-size: 1.3em;
+                color: $submenu_2_purple;
+            }
+
+            &_blue {
+                font-family: alegrya;
+                font-size: 1.3em;
+                color: $submenu_2_blue;
+            }
         }
     }
 }
@@ -104,4 +121,20 @@
     vertical-align:center;
     @include chicfrancaise;
    
+}
+#subtitle {
+    &_1 {
+        font-family: alegrya;
+        color: $submenu_2_orange;
+    }
+
+    &_2 {
+        font-family: alegrya;
+        color: $submenu_2_purple;
+    }
+
+    &_3 {
+        font-family: alegrya;
+        color: $submenu_2_blue;
+    }
 }

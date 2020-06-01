@@ -118,7 +118,7 @@ footer{
         width: 100%;
         margin: auto;
         margin-bottom: 30px;
-        padding: 20px;
+        
     }
 
     &_card {
@@ -162,6 +162,9 @@ footer{
     }
     &_trait{
         width:30%;
+        &_reverse{
+            transform:rotateY(180deg)
+        }
     }
 
     &_footer {

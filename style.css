@@ -180,7 +180,6 @@ footer a:hover {
   width: 100%;
   margin: auto;
   margin-bottom: 30px;
-  padding: 20px;
 }
 .submenu_card {
   box-shadow: 0px 0px 5px 5px #BDBDBD;
@@ -231,6 +230,9 @@ footer a:hover {
 }
 .submenu_trait {
   width: 30%;
+}
+.submenu_trait_reverse {
+  transform: rotateY(180deg);
 }
 .submenu_footer {
   display: flex;
@@ -298,8 +300,20 @@ footer a:hover {
 .submenu_section_2 .row_main h4 {
   font-size: 2em;
 }
-.submenu_content_1 {
-  font-family: "Comic_relief";
+.submenu_content_2_orange {
+  font-family: alegrya;
+  font-size: 1.3em;
+  color: #c67412;
+}
+.submenu_content_2_purple {
+  font-family: alegrya;
+  font-size: 1.3em;
+  color: #a56799;
+}
+.submenu_content_2_blue {
+  font-family: alegrya;
+  font-size: 1.3em;
+  color: #6e4ccc;
 }
 
 #submenu_card_2 row_main {
@@ -315,6 +329,19 @@ footer a:hover {
   background: linear-gradient(90deg, #d8852e, #905bfd);
   background-clip: text;
   color: transparent;
+}
+
+#subtitle_1 {
+  font-family: alegrya;
+  color: #c67412;
+}
+#subtitle_2 {
+  font-family: alegrya;
+  color: #a56799;
+}
+#subtitle_3 {
+  font-family: alegrya;
+  color: #6e4ccc;
 }
 
 /*  keyframe Animation for the main menu*/
