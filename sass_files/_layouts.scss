@@ -73,8 +73,8 @@
 }
 .submenu {
     &_name {
-        line-height: 200px;
-        font-size: 3em;
+        line-height: 300px;
+        font-size: 4em;
         vertical-align: center;
     }
 
@@ -97,6 +97,21 @@
                 font-size: 1.3em;
                 color: $submenu_2_blue;
             }
+        }
+
+        &_3 {
+            font-family: Comic_relief;
+            font-size: 1.3em;
+        }
+    }
+
+    &_3 {
+        &_name {
+            font-family: alexbrush;
+            font-weight: bold;
+            background: linear-gradient(90deg, #2b58e6,#0887fb);
+            background-clip: text;
+            color: transparent;
         }
     }
 }
@@ -133,4 +148,8 @@
     }
 }
 
-//submenu 3 layout
+.subtitle{
+    &_3{
+        font-family:Comic_relief;
+    }
+}

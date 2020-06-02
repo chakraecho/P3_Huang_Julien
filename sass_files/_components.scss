@@ -116,6 +116,7 @@ footer{
 .subtitle {
     position: relative;
     @include underline_animated;
+    text-align:center;
 }
 
 .submenu {
