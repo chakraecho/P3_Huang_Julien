@@ -58,6 +58,10 @@ h3 {
   text-align: center;
 }
 
+h4 {
+  font-size: 2em;
+}
+
 .row {
   width: 100%;
   display: flex;
@@ -316,8 +320,10 @@ footer a:hover {
   background-color: #fcdfdb;
 }
 
-.submenu_section_2 .row_main h4 {
-  font-size: 2em;
+.submenu_name {
+  line-height: 200px;
+  font-size: 3em;
+  vertical-align: center;
 }
 .submenu_content_2_orange {
   font-family: alegrya;
@@ -340,9 +346,6 @@ footer a:hover {
 }
 
 .submenu_2_name {
-  line-height: 200px;
-  font-size: 3em;
-  vertical-align: center;
   font-family: alegrya;
   font-weight: bold;
   background: linear-gradient(90deg, #d8852e, #905bfd);

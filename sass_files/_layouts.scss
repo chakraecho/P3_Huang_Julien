@@ -72,14 +72,10 @@
     }
 }
 .submenu {
-    &_section {
-        &_2 {
-            .row_main {
-                h4 {
-                    font-size: 2em;
-                }
-            }
-        }
+    &_name {
+        line-height: 200px;
+        font-size: 3em;
+        vertical-align: center;
     }
 
     &_content {
@@ -116,9 +112,7 @@
     }
 }
 .submenu_2_name{
-    line-height:200px;
-    font-size:3em;
-    vertical-align:center;
+
     @include chicfrancaise;
    
 }
@@ -138,3 +132,5 @@
         color: $submenu_2_blue;
     }
 }
+
+//submenu 3 layout
