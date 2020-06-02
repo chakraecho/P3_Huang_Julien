@@ -114,6 +114,17 @@
             color: transparent;
         }
     }
+
+    &_4 {
+        &_name {
+            font-family: kaushanscript;
+            font-weight: bold;
+            background: linear-gradient(45deg, #3e923a, #beff7f 75% );
+            background-clip: text;
+            color: transparent;
+            padding: 20px;
+        }
+    }
 }
 
 //submenu_2 layout
@@ -131,6 +142,7 @@
     @include chicfrancaise;
    
 }
+//subtitle for the menu2 html -> multiple color
 #subtitle {
     &_1 {
         font-family: alegrya;
@@ -148,8 +160,13 @@
     }
 }
 
-.subtitle{
-    &_3{
-        font-family:Comic_relief;
+.subtitle {
+    &_3 {
+        font-family: Comic_relief;
+    }
+
+    &_4 {
+        font-family: Comic_relief;
+        font-weight:normal;
     }
 }
