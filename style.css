@@ -414,5 +414,19 @@ footer a:hover {
     transform: translate(-1px, 0);
   }
 }
+@media screen and (max-width: 1315px) {
+  .menu_box {
+    width: 35%;
+  }
+}
+@media screen and (max-width: 960px) {
+  .menu_box {
+    width: 70%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 90vw;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
