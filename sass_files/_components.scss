@@ -63,7 +63,9 @@ footer{
         background-color: $submenu2_3bg;
 
         &_name {
-            @include chicfrancaise;
+            h4 {
+                @include chicfrancaise;
+            }
         }
 
         &_title {
@@ -76,11 +78,13 @@ footer{
         background-color: $submenu2_3bg;
 
         &_name {
-            font-family: alexbrush;
-            font-weight: bold;
-            background: linear-gradient(90deg, #2b58e6,#0887fb);
-            background-clip: text;
-            color: transparent;
+            h4 {
+                font-family: alexbrush;
+                font-weight: bold;
+                background: linear-gradient(90deg, #2b58e6,#0887fb);
+                background-clip: text;
+                color: transparent;
+            }
         }
 
         &_title {
