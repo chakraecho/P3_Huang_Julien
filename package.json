@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/julien-huang-dev/P3_Huang_Julien/issues"
   },
-  "homepage": "https://github.com/julien-huang-dev/P3_Huang_Julien#readme"
+  "homepage": "https://github.com/julien-huang-dev/P3_Huang_Julien#readme",
+  "dependencies": {
+    "autoprefixer": "^9.8.0"
+  }
 }
