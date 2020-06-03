@@ -56,7 +56,6 @@ footer{
             @include note_enchantee;
             text-transform: uppercase;
             font-style: italic;
-
         }
     }
 
@@ -95,12 +94,15 @@ footer{
         background-color: $submenu4bg;
 
         &_name {
-            font-family: kaushanscript;
-            font-weight: bold;
-            background: linear-gradient(45deg, #3e923a, #beff7f 75% );
-            background-clip: text;
-            color: transparent;
-            padding: 3px;
+
+            h4 {
+                font-family: kaushanscript;
+                font-weight: bold;
+                background: linear-gradient(45deg, #3e923a, #beff7f 75% );
+                background-clip: text;
+                color: transparent;
+                padding: 3px;
+            }
         }
 
         &_title {
