@@ -449,6 +449,14 @@ footer a:hover {
           background-clip: text;
   color: transparent;
 }
+.submenu_4_name {
+  font-family: kaushanscript;
+  font-weight: bold;
+  background: linear-gradient(45deg, #3e923a, #beff7f 75%);
+  background-clip: text;
+  color: transparent;
+  padding: 20px;
+}
 
 #submenu_card_2 row_main {
   width: 100%;
@@ -480,6 +488,10 @@ footer a:hover {
 
 .subtitle_3 {
   font-family: Comic_relief;
+}
+.subtitle_4 {
+  font-family: Comic_relief;
+  font-weight: normal;
 }
 
 /*  keyframe Animation for the main menu*/
