@@ -286,11 +286,6 @@ footer a:hover {
   opacity: 1;
   transition: all ease-in-out 0.5s;
 }
-.menu_inside:hover {
-  transform: scale(1.2);
-  opacity: 0.5;
-  transition: all ease-in-out 0.5s;
-}
 .menu_box {
   width: 25%;
   height: 40vw;
@@ -300,6 +295,11 @@ footer a:hover {
   justify-content: center;
   align-items: center;
   box-shadow: 0px 0px 5px 5px #BDBDBD;
+}
+.menu_box:hover > div {
+  transform: scale(1.2);
+  opacity: 0.5;
+  transition: all ease-in-out 0.5s;
 }
 .menu_name {
   font-size: 1.5em;
