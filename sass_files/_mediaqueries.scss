@@ -6,10 +6,23 @@
 
 @media screen and (max-width:960px){
     .menu_box{
-        width:70%;
+        width:95%;
         margin:auto;
         margin-top:30px;
         margin-bottom:30px;
         height:90vw;
+    }
+    .menu{
+        &_name{
+            h2{
+                text-align:center;
+            }
+        }
+    }
+    .submenu{
+        &_card{
+            width:95%;
+            min-height: 95vh;
+        }
     }
 }

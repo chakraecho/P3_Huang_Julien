@@ -98,7 +98,7 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  position: sticky;
+  position: fixed;
   bottom: 0px;
   left: 0px;
   width: 100%;
@@ -421,11 +421,20 @@ footer a:hover {
 }
 @media screen and (max-width: 960px) {
   .menu_box {
-    width: 70%;
+    width: 95%;
     margin: auto;
     margin-top: 30px;
     margin-bottom: 30px;
     height: 90vw;
+  }
+
+  .menu_name h2 {
+    text-align: center;
+  }
+
+  .submenu_card {
+    width: 95%;
+    min-height: 95vh;
   }
 }
 
