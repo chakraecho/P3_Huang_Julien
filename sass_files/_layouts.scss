@@ -170,3 +170,26 @@
         font-weight:normal;
     }
 }
+
+
+
+//mention_legale
+#mention_legale {
+    &_page {
+        section {
+            margin: 30px 0px;
+
+            h1 {
+                text-align: center;
+            }
+
+            p {
+                line-height: 2em;
+            }
+
+            h2 {
+                text-align: center;
+            }
+        }
+    }
+}
