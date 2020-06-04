@@ -16,6 +16,11 @@
         height:90vw;
     }
     .menu{
+        &_1{
+            &_name{
+                padding-top:0px;
+            }
+        }
         &_name{
             h2{
                 text-align:center;
@@ -28,6 +33,7 @@
             min-height: 95vh;
             box-shadow:none;
             padding:0px;
+            padding-top:2vh;
         }
 
         &_trait {

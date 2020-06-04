@@ -42,7 +42,7 @@
 }
 
 body {
-  padding-bottom: 8vh;
+  padding-bottom: 7vh;
 }
 
 a {
@@ -331,7 +331,7 @@ footer a:hover {
   padding-top: 1em;
   padding-bottom: 1em;
   font-size: 4em;
-  vertical-align: center;
+  text-align: center;
 }
 .submenu_content_2_orange {
   font-family: alegrya;
@@ -464,6 +464,9 @@ footer a:hover {
     height: 90vw;
   }
 
+  .menu_1_name {
+    padding-top: 0px;
+  }
   .menu_name h2 {
     text-align: center;
   }
@@ -473,6 +476,7 @@ footer a:hover {
     min-height: 95vh;
     box-shadow: none;
     padding: 0px;
+    padding-top: 2vh;
   }
   .submenu_trait {
     display: none;
