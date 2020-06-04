@@ -130,7 +130,6 @@ footer{
         width: 100%;
         margin: auto;
         margin-bottom: 30px;
-        
     }
 
     &_card {
@@ -146,7 +145,7 @@ footer{
         .row_main {
             width: 100%;
             justify-content: space-between;
-            display:flex;
+            display: flex;
         }
 
         .row {
@@ -172,10 +171,14 @@ footer{
             width: 3em;
         }
     }
-    &_trait{
-        width:30%;
-        &_reverse{
-            transform:rotateY(180deg)
+
+    &_trait {
+        width: 30%;
+        height: 10px;
+        align-self: center;
+
+        &_reverse {
+            transform: rotateY(180deg)
         }
     }
 

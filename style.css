@@ -254,6 +254,8 @@ footer a:hover {
 }
 .submenu_trait {
   width: 30%;
+  height: 10px;
+  align-self: center;
 }
 .submenu_trait_reverse {
   transform: rotateY(180deg);
