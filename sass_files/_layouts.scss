@@ -5,7 +5,11 @@
     justify-content:space-around;
     min-height:100vh;
 }
-
+.menu_1_name {
+    font-family: "black_jackregular";
+    font-weight: bold;
+    color: #3c1218;
+}
 .menu {
     &_inside {
         display: flex;
@@ -75,6 +79,10 @@
     }
 
     &_content {
+        &_1{
+            font-family:'Comic Sans MS';
+
+        }
         &_2 {
             &_orange {
                 font-family: alegrya;
@@ -118,7 +126,7 @@
             background: linear-gradient(45deg, #3e923a, #beff7f 75% );
             background-clip: text;
             color: transparent;
-            padding: 20px;
+            padding-right: 10px;
         }
     }
 }
