@@ -41,6 +41,10 @@
   padding: 0;
 }
 
+body {
+  padding-bottom: 8vh;
+}
+
 a {
   text-decoration: none;
 }
