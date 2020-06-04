@@ -120,14 +120,13 @@ footer a:hover {
   animation: shake 100ms infinite alternate;
 }
 
-.menu_1_name {
+#menu_1 {
+  background-color: #fcdfdb;
+}
+#menu_1_name h2 {
   font-family: "black_jackregular";
   font-weight: bold;
   color: #3c1218;
-}
-
-#menu_1 {
-  background-color: #fcdfdb;
 }
 #menu_1_title {
   color: #3c1218;

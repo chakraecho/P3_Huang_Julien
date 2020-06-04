@@ -38,19 +38,18 @@ footer{
 
    }
 }
-.menu {
-    &_1 {
-        &_name {
-            font-family: "black_jackregular";
-            font-weight: bold;
-            color: #3c1218;
-        }
-    }
-}
 
 #menu {
     &_1 {
         background-color: $submenu1bg;
+
+        &_name {
+            h2 {
+                font-family: "black_jackregular";
+                font-weight: bold;
+                color: #3c1218;
+            }
+        }
 
         &_title {
             @include note_enchantee;
