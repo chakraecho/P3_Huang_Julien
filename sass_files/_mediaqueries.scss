@@ -34,10 +34,39 @@
             box-shadow:none;
             padding:0px;
             padding-top:2vh;
+            .row{
+                width:100%;
+                h4{
+                    margin:auto;
+                }
+            }
         }
-
+        &_content{
+            &_1{
+                font-size:0.8em;
+            }
+            &_2{
+                &_orange{
+                    font-size:0.8em;
+                }
+                &_purple{
+                    font-size:0.8em;
+                }
+                &_blue{
+                    font-size:0.8em;
+                }
+            }
+            &_3{
+                font-size:0.8em;
+                margin-right:5px;
+            }
+        }
         &_trait {
             display: none;
         }
     }
+
+    .subtitle{
+       margin:auto;
+        }
 }

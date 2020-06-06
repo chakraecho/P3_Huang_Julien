@@ -48,7 +48,7 @@ $submenu_2_blue: #6e4ccc ;
 //zoom effect on main menu
 @mixin zoom_mainmenu {
     &:hover > div {
-        transform: scale(1.2);
+        transform: scale(1.1);
         opacity: 0.5;
         transition: all ease-in-out 0.5s;
     }
