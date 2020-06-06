@@ -109,12 +109,14 @@ footer{
         }
 
         &_title {
-            font-family: 'Comic_relief';
-            font-style: italic;
-            background: linear-gradient(45deg, #72bf56, #72bf56 );
-            background-clip: text;
-            color: transparent;
-            padding: 3px;
+            h3 {
+                font-family: 'Comic_relief';
+                font-style: italic;
+                background: linear-gradient(45deg, #72bf56, #72bf56 );
+                background-clip: text;
+                color: transparent;
+                padding: 3px;
+            }
         }
     }
 }
