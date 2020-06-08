@@ -1,4 +1,4 @@
-
+//header 
 header {
     background-color: $main-background;
     width: 100%;
@@ -14,7 +14,7 @@ header {
         font-weight:bolder;
     }
 }
-
+//footer
 footer{
    background-color:$main-background;
    display:flex;
@@ -39,93 +39,51 @@ footer{
    }
 }
 
-#menu {
-    &_1 {
-        background-color: $submenu1bg;
-
-        &_name {
-            h2 {
-                font-family: "black_jackregular";
-                font-weight: bold;
-                color: #3c1218;
-            }
-        }
-
-        &_title {
-            @include note_enchantee;
-            text-transform: uppercase;
-            font-style: italic;
-        }
+//inside the main menu cards settings
+.menu {
+    &_inside {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transform: scale(1);
+        opacity: 1;
+        transition: all ease-in-out 0.5s;
     }
 
-    &_2 {
-        background-color: $submenu2_3bg;
-
-        &_name {
-            h2 {
-                @include chicfrancaise;
-            }
-        }
-
-        &_title {
-            font-family: librebaskerville;
-            color: #d8852e;
-        }
+    &_box {
+        width: 25%;
+        height: 40vw;
+        margin: 5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0px 0px 5px 5px #BDBDBD;
+        @include zoom_mainmenu;
     }
 
-    &_3 {
-        background-color: $submenu2_3bg;
-
-        &_name {
-            h2 {
-                font-family: alexbrush;
-                font-weight: bold;
-                background: linear-gradient(90deg, #2b58e6,#0887fb);
-                background-clip: text;
-                color: transparent;
-            }
-        }
-
-        &_title {
-            font-family: 'Comic_relief';
-            font-style: italic;
-            color: #0887fb;
-        }
+    &_name {
+        font-size: 1.5em;
     }
 
-    &_4 {
-        background-color: $submenu4bg;
+    &_title {
+        font-size: 2em;
+    }
 
-        &_name {
-
-            h2 {
-                font-family: kaushanscript;
-                font-weight: bold;
-                background: linear-gradient(45deg, #3e923a, #beff7f 75% );
-                background-clip: text;
-                color: transparent;
-                padding: 5px;
-            }
-        }
-
-        &_title {
-            h3 {
-                font-family: 'Comic_relief';
-                font-style: italic;
-                background: linear-gradient(45deg, #72bf56, #72bf56 );
-                background-clip: text;
-                color: transparent;
-                padding: 3px;
-            }
-        }
+    &_img {
+        width: 5em;
     }
 }
+
+//small titles in submenu with underline animations
 .subtitle {
     position: relative;
     @include underline_animated;
     text-align:center;
 }
 
+//settings for submenus
 .submenu {
     &_section {
         width: 100%;

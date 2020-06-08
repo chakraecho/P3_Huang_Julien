@@ -5,48 +5,95 @@
     justify-content:space-around;
     min-height:100vh;
 }
+///card in main menu layout
+#menu {
+    &_1 {
+        background-color: $submenu1bg;
+
+        &_name {
+            h2 {
+                font-family: "black_jackregular";
+                font-weight: bold;
+                color: #3c1218;
+            }
+        }
+
+        &_title {
+            @include note_enchantee;
+            text-transform: uppercase;
+            font-style: italic;
+        }
+    }
+
+    &_2 {
+        background-color: $submenu2_3bg;
+
+        &_name {
+            h2 {
+                @include chicfrancaise;
+            }
+        }
+
+        &_title {
+            font-family: librebaskerville;
+            color: #d8852e;
+        }
+    }
+
+    &_3 {
+        background-color: $submenu2_3bg;
+
+        &_name {
+            h2 {
+                font-family: alexbrush;
+                font-weight: bold;
+                background: linear-gradient(90deg, #2b58e6,#0887fb);
+                background-clip: text;
+                color: transparent;
+            }
+        }
+
+        &_title {
+            font-family: 'Comic_relief';
+            font-style: italic;
+            color: #0887fb;
+        }
+    }
+
+    &_4 {
+        background-color: $submenu4bg;
+
+        &_name {
+
+            h2 {
+                font-family: kaushanscript;
+                font-weight: bold;
+                background: linear-gradient(45deg, #3e923a, #beff7f 75% );
+                background-clip: text;
+                color: transparent;
+                padding: 5px;
+            }
+        }
+
+        &_title {
+            h3 {
+                font-family: 'Comic_relief';
+                font-style: italic;
+                background: linear-gradient(45deg, #72bf56, #72bf56 );
+                background-clip: text;
+                color: transparent;
+                padding: 3px;
+            }
+        }
+    }
+}
+
 .menu_1_name {
     font-family: "black_jackregular";
     font-weight: bold;
     color: #3c1218;
 }
-.menu {
-    &_inside {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        transform: scale(1);
-        opacity: 1;
-        transition: all ease-in-out 0.5s;
-    }
-
-    &_box {
-        width: 25%;
-        height: 40vw;
-        margin: 5%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        box-shadow: 0px 0px 5px 5px #BDBDBD;
-        @include zoom_mainmenu;
-    }
-
-    &_name {
-        font-size: 1.5em;
-    }
-
-    &_title {
-        font-size: 2em;
-    }
-
-    &_img {
-        width: 5em;
-    }
-}
-
-
+// ""prochainement""
 .next_box{
     margin:auto;
     text-align:center;
