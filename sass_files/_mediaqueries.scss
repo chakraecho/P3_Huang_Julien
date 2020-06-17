@@ -35,7 +35,8 @@
             padding:0px;
             padding-top:2vh;
             .row{
-                width:100%;
+                width:95%;
+                margin:auto;
                 h4{
                     margin:auto;
                 }
@@ -63,9 +64,6 @@
         }
         &_trait {
             display: none;
-        }
-        &_section{
-            padding:0px 10px;
         }
     }
 
