@@ -117,10 +117,6 @@ footer{
             width: 80%;
             margin: auto;
 
-            .submenu_trait {
-                width: 30%;
-            }
-
             h4 {
                 @include note_enchantee;
                 font-size: 2em;
